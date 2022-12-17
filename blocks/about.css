@@ -1,0 +1,26 @@
+.about {
+  height: 700px;
+  background-color: #f6f6f5;
+  display: flex;
+  padding-right: 150px;
+  font-family: "Belleza", Arial, sans-serif;
+}
+.about__title {
+  font-size: 50px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #7d9f69;
+}
+
+.about__text {
+  line-height: 24px;
+  font-size: 22px;
+}
+.about__container {
+  margin: 100px;
+}
+
+.about__image {
+  margin: 50px 0 50px 100px;
+  padding: 35px;
+  border-radius: 200px 200px 0 0;
+}

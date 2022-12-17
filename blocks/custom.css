@@ -1,0 +1,28 @@
+.custom {
+  display: flex;
+  background-color: #f6f6f5;
+  font-family: "Belleza", Arial, sans-serif;
+}
+.custom__image {
+  max-height: fit-content;
+  height: 600px;
+  width: 700px;
+}
+
+.custom__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.custom__title {
+  border-bottom: 2px solid #7d9f69;
+}
+.custom__list {
+  list-style-type: none;
+}
+
+.custom ul li:before {
+  content: "\2014";
+  position: absolute;
+  margin-left: -20px;
+}
