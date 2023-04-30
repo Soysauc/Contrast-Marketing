@@ -1,6 +1,4 @@
 .button {
-  width: 197px;
-  height: 56px;
   text-decoration: none;
   background-color: #fae845;
   display: flex;
@@ -10,5 +8,20 @@
   color: #000000;
   font-weight: bold;
   font-size: 16px;
-  font-family: 'Cerebri Sans Pro';
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  height: 56px;
+  /* font-family: 'Cerebri Sans Pro'; */
+}
+
+.startQuote {
+  width: 197px;
+}
+
+.seeHow {
+  width: 227px;
+}
+
+.join {
+  width: 121px;
 }
