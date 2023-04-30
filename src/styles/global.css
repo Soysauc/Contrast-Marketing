@@ -2,8 +2,7 @@
 
 @font-face {
   font-family: 'Alta';
-  src: url('/fonts/alta.woff2') format('woff2'),
-    url('/fonts/alta.woff') format('woff');
+  src: url('/fonts/alta.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -17,9 +16,8 @@
 }
 
 @font-face {
-  font-family: 'Cerebri';
-  src: url('/fonts/cerebri.woff2') format('woff2'),
-    url('/fonts/cerebri.woff') format('woff');
+  font-family: 'Cerebri Sans Pro';
+  src: url('/fonts/CerebriSansPro-Medium.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
