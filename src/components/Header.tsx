@@ -5,12 +5,31 @@ import styles from '../styles/Header.module.scss';
 export default function Header() {
   return (
     <header className={styles.header}>
-      <div className={styles.imageWrapper}>
-        <div className={styles.hamburger}>
-          <Image src='/Menu.svg' alt='hamburger' height={60} width={60} />
-        </div>
-        <Image src='/Logo.svg' alt='Logo' height={150} width={150} />
-      </div>
+      <Image
+        src='/Logo.svg'
+        alt='Logo'
+        height={160}
+        width={160}
+        className={styles.logo}
+      />
+
+      <nav className={styles.header__nav}>
+        <ul>
+          <li>
+            <a href='#'>Home</a>
+          </li>
+          <li>
+            <a href='#'>About</a>
+          </li>
+          <li>
+            <a href='#'>Services</a>
+          </li>
+          <li>
+            <a href='#'>Contact</a>
+          </li>
+        </ul>
+      </nav>
+
       <Button type='startQuote' />
     </header>
   );
