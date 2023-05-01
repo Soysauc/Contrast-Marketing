@@ -10,6 +10,9 @@ export default function HowItWorks() {
           <div className={styles.circle}>
             <span className={styles.number}>1</span>
           </div>
+          <div className={styles['vector-1-container']}>
+            <Image src={'/Vector1.svg'} width={580} height={480} alt='Line 1' />
+          </div>
           <div className={styles['how-it-works__text-1']}>
             <h3>Let your original ideas take flight</h3>
             <p>
@@ -32,12 +35,18 @@ export default function HowItWorks() {
             width={485}
             height={380}
             alt='shopping cart'
+            style={{ marginLeft: '15px' }}
           />
           <div className={styles.circle}>
             <span className={styles.number}>2</span>
           </div>
+          <div className={styles['vector-2-container']}>
+            <Image src={'/Vector2.svg'} width={580} height={480} alt='Line 1' />
+          </div>
           <div>
-            <h3>We will send you a custom quote for your order.</h3>
+            <h3 style={{ maxWidth: '472px' }}>
+              We will send you a custom quote for your order.
+            </h3>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem
               corporis provident minima voluptatibus, dolorem dolorum deleniti
@@ -62,6 +71,7 @@ export default function HowItWorks() {
             width={485}
             height={380}
             alt='unboxing'
+            style={{ marginLeft: '50px' }}
           />
         </div>
       </div>

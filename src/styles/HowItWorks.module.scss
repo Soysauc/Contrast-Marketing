@@ -13,13 +13,30 @@
   margin-top: 129px;
   margin-bottom: 39px;
 }
+.vector-1-container {
+  position: absolute;
+  top: 64%; // Adjust this value to move the vector up or down
+  left: 50%;
+  transform: translateX(-92%);
+  z-index: -1;
+}
+.vector-2-container {
+  position: absolute;
+  top: 134%; // Adjust this value to move the vector up or down
+  left: 50%;
+  transform: translateX(-92%);
+  z-index: -1;
+}
 .how-it-works__item {
   display: flex;
+  margin-bottom: 110px;
 }
 .how-it-works__text-1 {
   margin-right: 110px;
 }
-
+.how-it-works__item:nth-child(2) .circle {
+  margin-left: 75px;
+}
 .circle {
   display: flex;
   align-items: center;
