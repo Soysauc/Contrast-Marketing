@@ -1,5 +1,6 @@
 .how-it-works {
   font-family: 'Belleza';
+  margin-bottom: 100px;
 }
 
 .how-it-works__title {
@@ -10,7 +11,15 @@
   letter-spacing: 0em;
   text-align: center;
   margin-top: 129px;
+  margin-bottom: 39px;
 }
+.how-it-works__item {
+  display: flex;
+}
+.how-it-works__text-1 {
+  margin-right: 110px;
+}
+
 .circle {
   display: flex;
   align-items: center;
@@ -30,8 +39,13 @@
 
 .how-it-works__wrapper {
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
+  justify-content: center;
   margin-top: 50px;
+  flex-direction: column;
+  align-items: center;
+  //   margin: 0 150px;
 }
 
 .how-it-works__wrapper h3 {

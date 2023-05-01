@@ -6,11 +6,11 @@ export default function HowItWorks() {
     <section className={styles['how-it-works']}>
       <h2 className={styles['how-it-works__title']}>How it works</h2>
       <div className={styles['how-it-works__wrapper']}>
-        <div>
+        <div className={styles['how-it-works__item']}>
           <div className={styles.circle}>
             <span className={styles.number}>1</span>
           </div>
-          <div>
+          <div className={styles['how-it-works__text-1']}>
             <h3>Let your original ideas take flight</h3>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem
@@ -23,9 +23,10 @@ export default function HowItWorks() {
             width={485}
             height={380}
             alt='woman reading'
+            style={{ borderRadius: '10px' }}
           />{' '}
         </div>
-        <div>
+        <div className={styles['how-it-works__item']}>
           <Image
             src={'/howItWorks2.jpg'}
             width={485}
@@ -44,11 +45,11 @@ export default function HowItWorks() {
             </p>
           </div>
         </div>
-        <div>
+        <div className={styles['how-it-works__item']}>
           <div className={styles.circle}>
             <span className={styles.number}>3</span>
           </div>
-          <div>
+          <div className={styles['how-it-works__text-1']}>
             <h3>Unbox the Awesome!</h3>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem
