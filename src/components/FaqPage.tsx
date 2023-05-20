@@ -2,29 +2,31 @@ import React, { useState } from 'react';
 import styles from '../styles/Faq.module.scss';
 
 interface FAQ {
+  n: number;
   q: string;
   a: string;
 }
 
 const faqs: FAQ[] = [
   {
-    q: 'Question 1',
-    a: 'Answer 1',
+    n: 1,
+    q: 'Adipiscing ipsum ipsum vitae',
+    a: 'Bibendum quis ridiculus at nunc. Mattis ut aliquet tortor mattis donec interdum. Congue sed magna quis id. Et egestas placerat pharetra gravida. Leo porta fermentum nulla aliquam ut fermentum tincidunt dignissim tellus. At in sapien libero aliquam. Risus commodo id integer ultricies. Vitae aliquet leo aliquam egestas et senectus.',
   },
+  { n: 2, q: 'Rhoncus malesuada tortor', a: 'Answer 2' },
   {
-    q: 'Question 2',
-    a: 'Answer 2',
-  },
-  {
-    q: 'Question 3',
+    n: 3,
+    q: 'Platea fames eu et arcu vitae',
     a: 'Answer 3',
   },
   {
-    q: 'Question 4',
+    n: 4,
+    q: 'Pharetra ultricies nulla',
     a: 'Answer 4',
   },
   {
-    q: 'Question 5',
+    n: 5,
+    q: 'Vestibulum turpis quis',
     a: 'Answer 5',
   },
 ];
@@ -42,7 +44,7 @@ const FAQPage: React.FC = () => {
 
   return (
     <section className={styles.faq}>
-      <h2>FAQ</h2>
+      <h2 className={styles.faqTitle}>FAQ</h2>
       <div className={styles.faqPage}>
         {faqs.map((faq, index) => (
           <div key={index} className={styles.faqItem}>
@@ -52,7 +54,11 @@ const FAQPage: React.FC = () => {
               }`}
               onClick={() => onClick(index)}
             >
-              <span className={styles.faqQuestion}>{faq.q}</span>
+              {' '}
+              <div>
+                <span className={styles.faqNumber}>0{faq.n}</span>
+                <span className={styles.faqQuestion}>{faq.q}</span>
+              </div>
               <span className={styles.faqToggle}>
                 {open === index ? '-' : '+'}
               </span>
