@@ -26,7 +26,7 @@
 
 .faqItem {
   width: 69.5%;
-  height: 80px;
+  min-height: 80px;
   border-radius: 10px;
   margin-bottom: 1rem;
   background-color: white;
@@ -45,10 +45,12 @@
   justify-content: space-between;
 }
 .faqAnswer {
-  height: 180px;
+  height: auto;
+  color: #797979;
   background-color: white;
-  border-bottom-left-radius: 0;
-  border-top-right-radius: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin: 6px 170px 25px 78px;
 }
 .faqToggle {
   color: #797979;

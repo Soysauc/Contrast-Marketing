@@ -14,7 +14,7 @@ export default function Footer() {
             width={117}
             className={styles.footer__logo}
           />
-          <div>
+          <div className={styles.footer__content}>
             <div className={styles.footer__icon_line}>
               <Image src='/Mail.svg' alt='mail icon' height={13} width={18} />
               <p>info@contrastmarketing.com</p>
@@ -79,14 +79,21 @@ export default function Footer() {
       </div>
       <span className={styles.footer__divider}></span>
       <div className={styles.footer__socials}>
-        <div>
-          <Image src='/insta.svg' alt='ig icon' height={42} width={42} />
+        <div className={styles.footer__social_icon}>
+          {' '}
+          <a href='https://www.instagram.com'>
+            <Image src='/insta.svg' alt='ig icon' height={42} width={42} />
+          </a>
         </div>
-        <div>
-          <Image src='/facebook.svg' alt='fb icon' height={42} width={42} />
+        <div className={styles.footer__social_icon}>
+          <a href='https://www.facebook.com'>
+            <Image src='/facebook.svg' alt='fb icon' height={42} width={42} />
+          </a>
         </div>
-        <div>
-          <Image src='/linked.svg' alt='li icon' height={42} width={42} />
+        <div className={styles.footer__social_icon}>
+          <a href='https://www.linkedin.com'>
+            <Image src='/linked.svg' alt='li icon' height={42} width={42} />
+          </a>
         </div>
       </div>
       <p className={styles.footer__copy}>

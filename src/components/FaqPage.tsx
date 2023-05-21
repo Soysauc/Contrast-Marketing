@@ -13,7 +13,11 @@ const faqs: FAQ[] = [
     q: 'Adipiscing ipsum ipsum vitae',
     a: 'Bibendum quis ridiculus at nunc. Mattis ut aliquet tortor mattis donec interdum. Congue sed magna quis id. Et egestas placerat pharetra gravida. Leo porta fermentum nulla aliquam ut fermentum tincidunt dignissim tellus. At in sapien libero aliquam. Risus commodo id integer ultricies. Vitae aliquet leo aliquam egestas et senectus.',
   },
-  { n: 2, q: 'Rhoncus malesuada tortor', a: 'Answer 2' },
+  {
+    n: 2,
+    q: 'Rhoncus malesuada tortor',
+    a: 'if you test this properly you can see the things move',
+  },
   {
     n: 3,
     q: 'Platea fames eu et arcu vitae',

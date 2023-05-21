@@ -3,7 +3,7 @@ import styles from '../styles/Button.module.scss';
 
 // Define the ButtonProps interface to specify the expected props
 interface ButtonProps {
-  type: 'startQuote' | 'seeHow' | 'join';
+  type: 'startQuote' | 'seeHow' | 'join' | 'contact';
 }
 
 // Update the Button component to accept ButtonProps
@@ -16,6 +16,7 @@ export default function Button({ type }: ButtonProps) {
       {type === 'startQuote' && 'START A QUOTE'}
       {type === 'seeHow' && 'SEE HOW WE DO IT'}
       {type === 'join' && 'JOIN'}
+      {type === 'contact' && 'CONTACT US'}
     </Link>
   );
 }

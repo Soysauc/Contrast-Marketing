@@ -1,0 +1,66 @@
+.ContactUs {
+  background: #90adc6;
+  color: white;
+  padding-bottom: 100px;
+}
+
+.ContactUs__title {
+  padding-top: 100px;
+  margin-top: 0;
+  font-family: Belleza;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 65px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.ContactUs__subtitle {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 47px;
+}
+
+.contactForm {
+  max-width: 435px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.inputGroup {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+}
+.inputGroup textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 25px;
+}
+
+.inputField {
+  padding: 20px 0 20px 55px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: none;
+  width: 100%;
+  font-size: 16px;
+}
+.inputGroup:nth-child(3) .inputField {
+  height: 134px;
+}
+
+.inputGroup .inputGroup_img {
+  margin-right: 10px;
+}
+.inputGroup_img {
+  position: absolute;
+  left: 27px;
+  top: 21px;
+}
