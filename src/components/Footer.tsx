@@ -17,11 +17,11 @@ export default function Footer() {
           <div className={styles.footer__content}>
             <div className={styles.footer__icon_line}>
               <Image src='/Mail.svg' alt='mail icon' height={13} width={18} />
-              <p>info@contrastmarketing.com</p>
+              <p>contrastmarketinginc@gmail.com</p>
             </div>
             <div className={styles.footer__icon_line}>
               <Image src='/Phone.svg' alt='phone icon' height={16} width={16} />
-              <p>+3 333 333 3333</p>
+              <p> (954) 305-7575</p>
             </div>
             <div className={styles.footer__icon_line}>
               <Image src='/Map.svg' alt='map icon' height={20} width={14} />

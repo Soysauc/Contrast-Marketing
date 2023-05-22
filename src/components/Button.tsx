@@ -1,14 +1,11 @@
 import Link from 'next/link';
 import styles from '../styles/Button.module.scss';
 
-// Define the ButtonProps interface to specify the expected props
 interface ButtonProps {
   type: 'startQuote' | 'seeHow' | 'join' | 'contact';
 }
 
-// Update the Button component to accept ButtonProps
 export default function Button({ type }: ButtonProps) {
-  // Get the corresponding class name based on the type prop
   const buttonClassName = styles[type];
 
   return (
@@ -16,7 +13,7 @@ export default function Button({ type }: ButtonProps) {
       {type === 'startQuote' && 'START A QUOTE'}
       {type === 'seeHow' && 'SEE HOW WE DO IT'}
       {type === 'join' && 'JOIN'}
-      {type === 'contact' && 'CONTACT US'}
+      {type === 'contact' && 'CONTACT US NOW'}
     </Link>
   );
 }

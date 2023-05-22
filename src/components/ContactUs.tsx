@@ -5,10 +5,12 @@ import Image from 'next/image';
 const ContactUs = () => {
   return (
     <div className={styles.ContactUs}>
-      <h2 className={styles.ContactUs__title}>Contact Us</h2>
+      <h2 className={styles.ContactUs__title}>
+        Ready to Simplify Your Promotional Product Experience?
+      </h2>
       <p className={styles.ContactUs__subtitle}>
-        Quis accumsan quam dignissim fames sed volutpat purus. Adipiscing eget
-        integer nisi.
+        Get started today and let us curate the perfect bundle for your
+        business.
       </p>
       <form className={styles.contactForm}>
         <div className={styles.inputGroup}>
