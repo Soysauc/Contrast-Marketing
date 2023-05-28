@@ -12,7 +12,7 @@ const ContactUs = () => {
         Get started today and let us curate the perfect bundle for your
         business.
       </p>
-      <form className={styles.contactForm}>
+      <form className={styles.contactForm} action='/submit-form' method='POST'>
         <div className={styles.inputGroup}>
           <Image
             src='name.svg'
@@ -25,6 +25,7 @@ const ContactUs = () => {
             type='text'
             placeholder='Your name'
             className={styles.inputField}
+            required
           />
         </div>
         <div className={styles.inputGroup}>
@@ -39,10 +40,15 @@ const ContactUs = () => {
             type='email'
             placeholder='Your email'
             className={styles.inputField}
+            required
           />
         </div>
         <div className={styles.inputGroup}>
-          <textarea placeholder='Your message' className={styles.inputField} />
+          <textarea
+            placeholder='Your message'
+            className={styles.inputField}
+            required
+          />
         </div>
         <Button type='submit' />
       </form>

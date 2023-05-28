@@ -19,7 +19,7 @@ export default function Hero() {
         </div>
         <div className={styles.hero__container}>
           <div className={styles.hero__image}>
-            <Image src='/Hero.svg' alt='Models' height={761} width={966} />
+            <Image src='/Hero.svg' alt='Models' height={766} width={966} />
           </div>
         </div>
       </div>

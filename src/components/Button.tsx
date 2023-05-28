@@ -9,7 +9,7 @@ export default function Button({ type }: ButtonProps) {
   const buttonClassName = styles[type];
 
   return (
-    <Link className={`${styles.button} ${buttonClassName}`} href='/contact'>
+    <Link className={`${styles.button} ${buttonClassName}`} href='#'>
       {type === 'startQuote' && 'START A QUOTE'}
       {type === 'seeHow' && 'SEE HOW WE DO IT'}
       {type === 'join' && 'JOIN'}
