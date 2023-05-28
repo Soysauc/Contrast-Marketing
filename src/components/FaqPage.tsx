@@ -10,28 +10,33 @@ interface FAQ {
 const faqs: FAQ[] = [
   {
     n: 1,
-    q: 'Adipiscing ipsum ipsum vitae',
-    a: 'Bibendum quis ridiculus at nunc. Mattis ut aliquet tortor mattis donec interdum. Congue sed magna quis id. Et egestas placerat pharetra gravida. Leo porta fermentum nulla aliquam ut fermentum tincidunt dignissim tellus. At in sapien libero aliquam. Risus commodo id integer ultricies. Vitae aliquet leo aliquam egestas et senectus.',
+    q: 'What is your minimum order?',
+    a: 'Hard good items vary by product. Orders for embroidery have a minimum of 12 pieces per design. Screen print has a minimum of 24 pieces per design.',
   },
   {
     n: 2,
-    q: 'Rhoncus malesuada tortor',
-    a: 'if you test this properly you can see the things move',
+    q: 'What is your turnaround time?',
+    a: 'After order has been approved with all the necessary elements and  payment has been received it will go into production of 10-12 days + shipping depending on the complexity of your order. If you have a firm in-hands date please let us know ahead of time. Rush fees may apply.',
   },
   {
     n: 3,
-    q: 'Platea fames eu et arcu vitae',
-    a: 'Answer 3',
+    q: 'How Can I get a quote?',
+    a: 'Fill out our contact form or send us an email to tell us a bit more about your project!',
   },
   {
     n: 4,
-    q: 'Pharetra ultricies nulla',
-    a: 'Answer 4',
+    q: 'How is your pricing determined?',
+    a: 'Price is determined by several factors. Quantity of units, decoration method and location placements, and how many colors are in your design. No two orders are the same. Contact us for your custom quote.',
   },
   {
     n: 5,
-    q: 'Vestibulum turpis quis',
-    a: 'Answer 5',
+    q: 'Can you design my logo?',
+    a: 'We do not offer graphic design services at this time.',
+  },
+  {
+    n: 6,
+    q: 'Do you offer samples?',
+    a: 'We may offer samples for certain products for returning customers only.',
   },
 ];
 

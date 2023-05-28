@@ -1,5 +1,6 @@
 import styles from '../styles/HowItWorks.module.scss';
 import Image from 'next/image';
+import Button from './Button';
 
 export default function HowItWorks() {
   return (
@@ -14,7 +15,10 @@ export default function HowItWorks() {
             <Image src={'/Vector1.svg'} width={580} height={480} alt='Line 1' />
           </div>
           <div className={styles['how-it-works__text-1']}>
-            <h3>Let your original ideas take flight</h3>
+            <h3>
+              Tell Us Your Needs: Share your industry, target audience, and
+              goals
+            </h3>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem
               corporis provident minima voluptatibus, dolorem dolorum deleniti
@@ -45,7 +49,8 @@ export default function HowItWorks() {
           </div>
           <div>
             <h3 style={{ maxWidth: '472px' }}>
-              We will send you a custom quote for your order.
+              Curated Selection: Our experts handpick products tailored to your
+              specifications
             </h3>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem
@@ -59,7 +64,10 @@ export default function HowItWorks() {
             <span className={styles.number}>3</span>
           </div>
           <div className={styles['how-it-works__text-1']}>
-            <h3>Unbox the Awesome!</h3>
+            <h3>
+              Approve & Order: Review your custom bundle, make adjustments, and
+              place your order!
+            </h3>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem
               corporis provident minima voluptatibus, dolorem dolorum deleniti
@@ -74,6 +82,7 @@ export default function HowItWorks() {
             style={{ marginLeft: '50px' }}
           />
         </div>
+        <Button type='startQuote' />
       </div>
     </section>
   );

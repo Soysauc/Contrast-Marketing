@@ -44,7 +44,7 @@ const ContactUs = () => {
         <div className={styles.inputGroup}>
           <textarea placeholder='Your message' className={styles.inputField} />
         </div>
-        <Button type='contact' />
+        <Button type='submit' />
       </form>
     </div>
   );

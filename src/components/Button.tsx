@@ -2,7 +2,7 @@ import Link from 'next/link';
 import styles from '../styles/Button.module.scss';
 
 interface ButtonProps {
-  type: 'startQuote' | 'seeHow' | 'join' | 'contact';
+  type: 'startQuote' | 'seeHow' | 'join' | 'submit';
 }
 
 export default function Button({ type }: ButtonProps) {
@@ -13,7 +13,7 @@ export default function Button({ type }: ButtonProps) {
       {type === 'startQuote' && 'START A QUOTE'}
       {type === 'seeHow' && 'SEE HOW WE DO IT'}
       {type === 'join' && 'JOIN'}
-      {type === 'contact' && 'CONTACT US NOW'}
+      {type === 'submit' && 'SUBMIT'}
     </Link>
   );
 }
