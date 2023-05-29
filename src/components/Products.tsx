@@ -12,7 +12,7 @@ export default function Products() {
             src={'/hoodie.png'}
             width={321}
             height={380}
-            alt='unboxing'
+            alt='hoodie icon'
             className={styles.product__image}
           />
           <div>
@@ -21,7 +21,7 @@ export default function Products() {
                 src={'/Hangers.svg'}
                 width={28}
                 height={27}
-                alt='unboxing'
+                alt='clothes icon'
                 className={styles.product__token}
               />
               <span>Apparel</span>
@@ -43,7 +43,7 @@ export default function Products() {
                 src={'/Cafe.svg'}
                 width={28}
                 height={27}
-                alt='unboxing'
+                alt='small coffee icon'
                 className={styles.product__token}
               />
               <span>Promo Products</span>
@@ -61,7 +61,7 @@ export default function Products() {
             src={'/bottle.png'}
             width={290}
             height={380}
-            alt='unboxing'
+            alt='hydro flask image'
             className={styles.product__image}
           />
         </div>

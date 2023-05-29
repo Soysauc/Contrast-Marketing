@@ -39,7 +39,6 @@ export default function HowItWorks() {
             width={485}
             height={380}
             alt='shopping cart'
-            style={{ marginLeft: '15px' }}
           />
           <div className={styles.circle}>
             <span className={styles.number}>2</span>
@@ -65,8 +64,8 @@ export default function HowItWorks() {
           </div>
           <div className={styles['how-it-works__text-1']}>
             <h3>
-              Approve & Order: Review your custom bundle, make adjustments, and
-              place your order!
+              Tell Us Your Needs: Share your industry, target audience, and
+              goals
             </h3>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem
@@ -78,9 +77,9 @@ export default function HowItWorks() {
             src={'/howItWorks3.jpg'}
             width={485}
             height={380}
-            alt='unboxing'
-            style={{ marginLeft: '50px' }}
-          />
+            alt='woman reading'
+            style={{ borderRadius: '10px' }}
+          />{' '}
         </div>
         <Button type='startQuote' />
       </div>

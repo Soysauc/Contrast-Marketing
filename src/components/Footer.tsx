@@ -25,10 +25,7 @@ export default function Footer() {
             </div>
             <div className={styles.footer__icon_line}>
               <Image src='/Map.svg' alt='map icon' height={20} width={14} />
-              <p>
-                Tristique gravida dolor a ante. Pellentesque pretium tristique
-                augue bibendum bibendum vel.
-              </p>
+              <p>U.S.A</p>
             </div>
           </div>
         </div>
@@ -37,22 +34,22 @@ export default function Footer() {
           <nav>
             <ul className={styles.footer__nav}>
               <li>
-                <a href='#'>item</a>
+                <a href='#'>Home</a>
               </li>
               <li>
-                <a href='#'>item</a>
+                <a href='#'>Who We Are</a>
               </li>
               <li>
-                <a href='#'>item</a>
+                <a href='#'>Products</a>
               </li>
               <li>
-                <a href='#'>item</a>
+                <a href='#'>How It Works</a>
               </li>
               <li>
-                <a href='#'>item</a>
+                <a href='#'>FAQ</a>
               </li>
               <li>
-                <a href='#'>item</a>
+                <a href='#'>Contact Us</a>
               </li>
             </ul>
           </nav>

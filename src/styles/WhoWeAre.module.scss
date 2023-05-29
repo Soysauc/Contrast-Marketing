@@ -1,0 +1,25 @@
+.whoweare {
+  position: relative;
+  min-height: 712px;
+  background-image: url('/whoweare.png');
+  background-size: 886.5px 498.6px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: 'Belleza';
+}
+.whoweare__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.whoweare__title {
+  font-size: 50px;
+}
+.whoweare__subtitle {
+  font-size: 16px;
+}
+.whoweare__aside {
+  max-width: 527px;
+}
