@@ -5,16 +5,65 @@ import styles from '../styles/Products.module.scss';
 export default function Products() {
   return (
     <div className={styles.products}>
-      <div className={styles.products__column}>
-        <div className={styles.products__content}>
-          <h2 className={styles.products__title}>Our Products </h2>
+      <h2 className={styles.products__title}>Our Products</h2>
+      <div className={styles.products__container}>
+        <div className={styles.products__column}>
+          <Image
+            src={'/hoodie.png'}
+            width={321}
+            height={380}
+            alt='unboxing'
+            className={styles.product__image}
+          />
+          <div>
+            <div>
+              <Image
+                src={'/Hangers.svg'}
+                width={28}
+                height={27}
+                alt='unboxing'
+                className={styles.product__token}
+              />
+              <span>Apparel</span>
+            </div>
 
-          <Button type='startQuote' />
-        </div>
-        <div className={styles.products__container}>
-          <div className={styles.products__image}>
-            <Image src='/Products.svg' alt='Models' height={766} width={966} />
+            <ul className={styles.product__list}>
+              <li>T-shirts</li>
+              <li>Tank Tops</li>
+              <li>Long Sleeves</li>
+              <li>Hoodies</li>
+              <li>Tote Bags</li>
+            </ul>
           </div>
+        </div>
+        <div className={styles.products__column}>
+          <div>
+            <div>
+              <Image
+                src={'/Cafe.svg'}
+                width={28}
+                height={27}
+                alt='unboxing'
+                className={styles.product__token}
+              />
+              <span>Promo Products</span>
+            </div>
+
+            <ul className={styles.product__list}>
+              <li>Drinkware</li>
+              <li>Office & Stationary</li>
+              <li>Eco Friendly</li>
+              <li>Technology</li>
+              <li>Health & Wellness</li>
+            </ul>
+          </div>
+          <Image
+            src={'/bottle.png'}
+            width={290}
+            height={380}
+            alt='unboxing'
+            className={styles.product__image}
+          />
         </div>
       </div>
     </div>
