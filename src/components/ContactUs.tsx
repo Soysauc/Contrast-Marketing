@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const ContactUs: React.FC = () => {
   return (
-    <div className={styles.ContactUs}>
+    <div id='contact' className={styles.ContactUs}>
       <h2 className={styles.ContactUs__title}>
         Ready to Simplify Your Promotional Product Experience?
       </h2>

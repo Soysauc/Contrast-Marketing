@@ -4,7 +4,7 @@ import styles from '../styles/Footer.module.scss';
 
 export default function Footer() {
   return (
-    <footer className={styles.footer}>
+    <footer id='footer' className={styles.footer}>
       <div className={styles.footer__container}>
         <div className={styles.footer__content_left}>
           <Image
@@ -34,22 +34,22 @@ export default function Footer() {
           <nav>
             <ul className={styles.footer__nav}>
               <li>
-                <a href='#'>Home</a>
+                <a href='#home'>Home</a>
               </li>
               <li>
-                <a href='#'>Who We Are</a>
+                <a href='#who-we-are'>Who We Are</a>
               </li>
               <li>
-                <a href='#'>Products</a>
+                <a href='#products'>Products</a>
               </li>
               <li>
-                <a href='#'>How It Works</a>
+                <a href='#how-it-works'>How It Works</a>
               </li>
               <li>
-                <a href='#'>FAQ</a>
+                <a href='#faq'>FAQ</a>
               </li>
               <li>
-                <a href='#'>Contact Us</a>
+                <a href='#contact'>Contact Us</a>
               </li>
             </ul>
           </nav>

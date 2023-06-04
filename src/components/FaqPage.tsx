@@ -52,7 +52,7 @@ const FAQPage: React.FC = () => {
   };
 
   return (
-    <section className={styles.faq}>
+    <section id='faq' className={styles.faq}>
       <h2 className={styles.faqTitle}>FAQ</h2>
       <div className={styles.faqPage}>
         {faqs.map((faq, index) => (

@@ -19,13 +19,13 @@ export default function Header() {
             <a href='#'>Home</a>
           </li>
           <li>
-            <a href='#'>About</a>
+            <a href='#who-we-are'>About</a>
           </li>
           <li>
-            <a href='#'>Services</a>
+            <a href='#how-it-works'>Services</a>
           </li>
           <li>
-            <a href='#'>Contact</a>
+            <a href='#contact'>Contact</a>
           </li>
         </ul>
       </nav>

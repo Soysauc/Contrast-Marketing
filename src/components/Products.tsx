@@ -4,7 +4,7 @@ import styles from '../styles/Products.module.scss';
 
 export default function Products() {
   return (
-    <div className={styles.products}>
+    <div id='products' className={styles.products}>
       <h2 className={styles.products__title}>Our Products</h2>
       <div className={styles.products__container}>
         <div className={styles.products__column}>

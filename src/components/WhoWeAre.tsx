@@ -3,7 +3,7 @@ import styles from '../styles/WhoWeAre.module.scss';
 
 export default function WhoWeAre() {
   return (
-    <div className={styles.whoweare}>
+    <div id='who-we-are' className={styles.whoweare}>
       <div className={styles.whoweare__content}>
         <h1 className={styles.whoweare__title}>Who We Are</h1>
         <div className={styles.whoweare__aside}>

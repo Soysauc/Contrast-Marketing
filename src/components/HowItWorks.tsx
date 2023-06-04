@@ -4,7 +4,7 @@ import Button from './Button';
 
 export default function HowItWorks() {
   return (
-    <section className={styles['how-it-works']}>
+    <section id='how-it-works' className={styles['how-it-works']}>
       <h2 className={styles['how-it-works__title']}>How it works</h2>
       <div className={styles['how-it-works__wrapper']}>
         <div className={styles['how-it-works__item']}>

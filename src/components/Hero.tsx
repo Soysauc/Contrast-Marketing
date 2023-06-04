@@ -5,7 +5,7 @@ import Header from './Header';
 
 export default function Hero() {
   return (
-    <div className={styles.hero}>
+    <div id='home' className={styles.hero}>
       <Header />
       <div className={styles.hero__column}>
         <div className={styles.hero__content}>
