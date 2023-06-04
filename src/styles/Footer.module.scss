@@ -108,3 +108,18 @@
 .footer__social_icon {
   cursor: pointer;
 }
+
+@media screen and (max-width: 745px) {
+  .footer {
+    padding: 35px;
+  }
+  .footer h4 {
+    font-size: 18px;
+  }
+  .footer p {
+    font-size: 14px;
+  }
+  .footer li {
+    font-size: 14px;
+  }
+}

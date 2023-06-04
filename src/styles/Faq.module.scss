@@ -59,3 +59,12 @@
   color: #4282aa;
   margin-right: 14px;
 }
+@media screen and (max-width: 745px) {
+  .faqAnswer {
+    margin: 20px;
+    font-size: 14px;
+  }
+  .faqHeader {
+    font-size: 24px;
+  }
+}

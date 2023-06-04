@@ -23,3 +23,8 @@
 .whoweare__aside {
   max-width: 527px;
 }
+@media screen and (max-width: 745px) {
+  .whoweare__title {
+    font-size: 34px;
+  }
+}

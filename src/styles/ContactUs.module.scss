@@ -64,3 +64,21 @@
   left: 27px;
   top: 21px;
 }
+
+@media screen and (max-width: 745px) {
+  .contactUs {
+    padding: 35px;
+  }
+  .ContactUs__title {
+    font-size: 20px;
+  }
+  .ContactUs__subtitle {
+    font-size: 14px;
+  }
+  .contactForm {
+    width: 80%;
+  }
+  .contactForm a {
+    width: 100%;
+  }
+}
