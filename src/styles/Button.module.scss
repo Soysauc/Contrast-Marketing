@@ -33,3 +33,9 @@
   width: 435px;
   border-radius: 10px;
 }
+
+@media screen and (max-width: 745px) {
+  .startQuote {
+    margin-top: 25px;
+  }
+}
