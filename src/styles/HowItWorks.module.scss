@@ -1,6 +1,9 @@
 .how-it-works {
   font-family: 'Belleza';
   margin-bottom: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
+  position: relative;
 }
 
 .how-it-works__title {
@@ -16,11 +19,12 @@
 .vector-1-container {
   position: absolute;
   z-index: -1;
+  transform: translateX(28px); /* Adjust the value as needed */
 }
 .vector-2-container {
   position: absolute;
-
   z-index: -1;
+  transform: translate(23px, 45px); /* Adjust the values as needed */
 }
 .how-it-works__item {
   display: flex;
@@ -38,6 +42,7 @@
   align-items: center;
   justify-content: center;
   width: 60px;
+  min-width: 60px;
   height: 60px;
   background-color: #fae845;
   border-radius: 50%;
@@ -58,7 +63,6 @@
   margin-top: 50px;
   flex-direction: column;
   align-items: center;
-  //   margin: 0 150px;
 }
 
 .how-it-works__wrapper h3 {

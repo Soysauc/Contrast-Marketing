@@ -11,19 +11,14 @@ export default function HowItWorks() {
           <div className={styles.circle}>
             <span className={styles.number}>1</span>
           </div>
-          <div className={styles['vector-1-container']}>
-            <Image src={'/Vector1.svg'} width={580} height={480} alt='Line 1' />
-          </div>
           <div className={styles['how-it-works__text-1']}>
             <h3>
               Tell Us Your Needs: Share your industry, target audience, and
               goals
             </h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem
-              corporis provident minima voluptatibus, dolorem dolorum deleniti
-              suscipit vero quis nihil at, expedita praesentium sit fugit?
-            </p>
+          </div>
+          <div className={styles['vector-1-container']}>
+            <Image src={'/Vector1.svg'} width={580} height={480} alt='Line 1' />
           </div>
           <Image
             src={'/howItWorks1.jpg'}
@@ -51,11 +46,6 @@ export default function HowItWorks() {
               Curated Selection: Our experts handpick products tailored to your
               specifications
             </h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem
-              corporis provident minima voluptatibus, dolorem dolorum deleniti
-              suscipit vero quis nihil at, expedita praesentium sit fugit?
-            </p>
           </div>
         </div>
         <div className={styles['how-it-works__item']}>
@@ -67,11 +57,6 @@ export default function HowItWorks() {
               Tell Us Your Needs: Share your industry, target audience, and
               goals
             </h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem
-              corporis provident minima voluptatibus, dolorem dolorum deleniti
-              suscipit vero quis nihil at, expedita praesentium sit fugit?
-            </p>
           </div>
           <Image
             src={'/howItWorks3.jpg'}
